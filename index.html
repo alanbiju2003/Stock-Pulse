@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📈 Stock Pulse</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <h1>📈 Stock Pulse</h1>
+    <p>Feel the market heartbeat in every click</p>
+  </nav>
+
+  <div class="container">
+    <aside id="company-list">
+      <h2>Companies</h2>
+      <div id="list"></div>
+    </aside>
+    <main id="main">
+      <h2 id="company-title">Click a company to begin 🚀</h2>
+      <canvas id="chart"></canvas>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
